@@ -34,10 +34,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default",
             "isDirectory": true,
-            "size": 320,
-            "modifiedTime": 1516943958960,
-            "changeTime": 1516943958960,
-            "contentHash": "562d80ca9fa7cc1be7f12166f689c1928b6ee174",
+            "size": 352,
+            "modifiedTime": 1516986309990,
+            "changeTime": 1516986309990,
+            "contentHash": "6a73f203a5f53f136a697968f93da3ca352d241d",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -350,7 +350,7 @@
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTitleCompare.cls",
             "isDirectory": false,
             "size": 1368,
-            "modifiedTime": 1516940688268,
+            "modifiedTime": 1516990375000,
             "changeTime": 1516940688268,
             "contentHash": "21d065c399e0d36b80ca42cad4c6f695f4c07d56",
             "isMetadataFile": false,
@@ -464,14 +464,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1874,
             "modifiedTime": 1516985609711,
             "changeTime": 1516985609711,
-            "contentHash": "21332071edebe7492c7e1b47d7801b452812ad08"
+            "contentHash": "21332071edebe7492c7e1b47d7801b452812ad08",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -540,32 +540,6 @@
         }
     ],
     [
-        "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows/New_Contact_Process-1.flow-meta.xml",
-        {
-            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows/New_Contact_Process-1.flow-meta.xml",
-            "isDirectory": false,
-            "size": 16571,
-            "modifiedTime": 1516943958959,
-            "changeTime": 1516943958959,
-            "contentHash": "70369bc470b99a644c23affdd102a0cbb83ee41f",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
-        "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flowDefinitions/New_Contact_Process.flowDefinition-meta.xml",
-        {
-            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flowDefinitions/New_Contact_Process.flowDefinition-meta.xml",
-            "isDirectory": false,
-            "size": 105,
-            "modifiedTime": 1516943958960,
-            "changeTime": 1516943958960,
-            "contentHash": "4102f1024b304c644055ba24c336b5b198707318",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows",
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows",
@@ -587,6 +561,32 @@
             "modifiedTime": 1516943958960,
             "changeTime": 1516943958960,
             "contentHash": "974f75664e8f893e5c5671f8cfd6f0371900de6c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/remoteSiteSettings/CDG_Node_Events.remoteSite-meta.xml",
+        {
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/remoteSiteSettings/CDG_Node_Events.remoteSite-meta.xml",
+            "isDirectory": false,
+            "size": 308,
+            "modifiedTime": 1516986309991,
+            "changeTime": 1516986309991,
+            "contentHash": "1a81988b7a046defc1d3a085223f1b159d2633de",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/remoteSiteSettings",
+        {
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/remoteSiteSettings",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516986309991,
+            "changeTime": 1516986309991,
+            "contentHash": "9d5e1d8e261b4e00e6fa5551b0e4fad5629aec35",
             "isMetadataFile": false,
             "state": "u"
         }
