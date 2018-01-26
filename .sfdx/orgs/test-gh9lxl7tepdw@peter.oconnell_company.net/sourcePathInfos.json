@@ -468,10 +468,10 @@
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1910,
-            "modifiedTime": 1516945454000,
-            "changeTime": 1516945454016,
-            "contentHash": "72c468882f38daf6c87bcaf3c462a0d1e95873ce"
+            "size": 1874,
+            "modifiedTime": 1516985609711,
+            "changeTime": 1516985609711,
+            "contentHash": "21332071edebe7492c7e1b47d7801b452812ad08"
         }
     ],
     [

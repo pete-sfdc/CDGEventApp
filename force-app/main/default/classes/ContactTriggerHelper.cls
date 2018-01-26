@@ -14,7 +14,6 @@ public class ContactTriggerHelper {
         List<Account> accs = new List<Account>();
 
         for(Contact con:cons) {
-            // A Contact doesn't always have to have an Account
             if(String.isNotBlank(con.AccountId)) {
                 accIds.add(con.AccountId);
             }
@@ -23,11 +22,10 @@ public class ContactTriggerHelper {
         List<ContactTitleCompare> tempCons = new List<ContactTitleCompare>();
 
         for(Account acc:[
-            SELECT Id, Name, Highest_Contact_by_Title__c, (SELECT Id, Name, Title FROM Contacts)
+            SELECT Id, Name, Highest_Contact_by_Title__c, (SELECT Id, Name, Title FROM Contacts ORDER BY LastName, FirstName)
             FROM Account
             WHERE Id IN:accIds
         ]) {
-
             if(acc.Contacts != null && !acc.Contacts.isEmpty()) {
                 System.debug('Account Name: ' + acc.Name);
                 System.debug('Number of Contacts: ' + acc.Contacts.size());
