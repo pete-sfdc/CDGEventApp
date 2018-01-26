@@ -321,14 +321,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes",
         {
+            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes",
             "isDirectory": true,
+            "isMetadataFile": false,
             "size": 256,
             "modifiedTime": 1516991183424,
             "changeTime": 1516991183424,
-            "contentHash": "3db79d4aacc9b071e45f078aa655db9e114c0b59",
-            "isMetadataFile": false,
-            "state": "u"
+            "contentHash": "3db79d4aacc9b071e45f078aa655db9e114c0b59"
         }
     ],
     [
@@ -464,14 +464,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
             "isDirectory": false,
+            "size": 1874,
+            "modifiedTime": 1516985609711,
+            "changeTime": 1516985609711,
+            "contentHash": "21332071edebe7492c7e1b47d7801b452812ad08",
             "isMetadataFile": false,
-            "size": 3032,
-            "modifiedTime": 1516991675906,
-            "changeTime": 1516991675906,
-            "contentHash": "e7bd6533dd4ce6c8429c4d3ce847df5471cbf24c"
+            "state": "u"
         }
     ],
     [
@@ -542,27 +542,27 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flows",
             "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516943958959,
+            "changeTime": 1516943958959,
+            "contentHash": "0b02f65c3fcd46701f9d09e411178cfbce9e890a",
             "isMetadataFile": false,
-            "size": 64,
-            "modifiedTime": 1516990491383,
-            "changeTime": 1516990491383,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flowDefinitions",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/flowDefinitions",
             "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516943958960,
+            "changeTime": 1516943958960,
+            "contentHash": "974f75664e8f893e5c5671f8cfd6f0371900de6c",
             "isMetadataFile": false,
-            "size": 64,
-            "modifiedTime": 1516990491382,
-            "changeTime": 1516990491382,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            "state": "u"
         }
     ],
     [
@@ -594,14 +594,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/AccountTriggerHelper.cls-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/AccountTriggerHelper.cls-meta.xml",
             "isDirectory": false,
+            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1516991183421,
             "changeTime": 1516991183421,
-            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
-            "isMetadataFile": true,
-            "state": "u"
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49"
         }
     ],
     [
@@ -611,10 +611,10 @@
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/AccountTriggerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 593,
-            "modifiedTime": 1516991735809,
-            "changeTime": 1516991735809,
-            "contentHash": "ce20b00ffb9e1ac69ac7e2cad63f631f5f1fa87f"
+            "size": 38,
+            "modifiedTime": 1516991183422,
+            "changeTime": 1516991183422,
+            "contentHash": "364ba9feab62760ca1affb6d3d7327f1362e09ec"
         }
     ]
 ]

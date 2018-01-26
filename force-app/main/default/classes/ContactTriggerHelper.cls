@@ -21,7 +21,7 @@ public class ContactTriggerHelper {
                 Subject = 'Get more information on ' + con.Name__c,
                 WhoID = con.Id,
                 WhatID = con.AccountId,
-                DueDate = Date.today().addDays(7)
+                ActivityDate = Date.today().addDays(7)
             ));
         }
         if(tasks != null && tasks.isEmpty()) {
@@ -32,7 +32,7 @@ public class ContactTriggerHelper {
     public static void createIntroCallEvents(List<Contact> cons) {
         List<Event> events = new List<Event>();
         for(Contact con:cons) {
-            events.add(new Task(
+            events.add(new Event(
                 Subject = 'introcall',
                 WhoID = con.Id,
                 WhatID = con.AccountId,
