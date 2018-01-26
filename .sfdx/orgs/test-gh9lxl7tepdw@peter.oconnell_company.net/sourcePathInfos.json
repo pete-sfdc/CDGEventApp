@@ -62,10 +62,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp",
             "isDirectory": true,
-            "size": 320,
-            "modifiedTime": 1516940651744,
-            "changeTime": 1516940651744,
-            "contentHash": "345c04f0bb30a9c2f22b188cc96e39de4179450a",
+            "size": 352,
+            "modifiedTime": 1516944633218,
+            "changeTime": 1516944633218,
+            "contentHash": "807b7aaa92451ec641bfc0e0a5d2bf0e1e9005a1",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -321,14 +321,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1516944162763,
             "changeTime": 1516944162763,
-            "contentHash": "3335170cf9aa02d62d9ca4dedae7237e11f467a6"
+            "contentHash": "3335170cf9aa02d62d9ca4dedae7237e11f467a6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -468,10 +468,10 @@
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1561,
-            "modifiedTime": 1516944195921,
-            "changeTime": 1516944195921,
-            "contentHash": "2d68eac2ad49cd8f6d1ca5fbed4b0cf8e4528964"
+            "size": 1910,
+            "modifiedTime": 1516945454000,
+            "changeTime": 1516945454016,
+            "contentHash": "72c468882f38daf6c87bcaf3c462a0d1e95873ce"
         }
     ],
     [
@@ -518,10 +518,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/triggers/ContactTrigger.trigger",
             "isDirectory": false,
-            "size": 304,
-            "modifiedTime": 1516941511220,
-            "changeTime": 1516941511220,
-            "contentHash": "545cb44ec3185c4310b8e9f57411e9c84216178a",
+            "size": 317,
+            "modifiedTime": 1516945257000,
+            "changeTime": 1516945257802,
+            "contentHash": "7d30c49f7686b5866bb9b96d02bed45bd2f8266c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -529,14 +529,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/triggers",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/force-app/main/default/triggers",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1516944151377,
             "changeTime": 1516944151377,
-            "contentHash": "510772f8aaa803e903c4cdcf04784d624f35e4dd"
+            "contentHash": "510772f8aaa803e903c4cdcf04784d624f35e4dd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
