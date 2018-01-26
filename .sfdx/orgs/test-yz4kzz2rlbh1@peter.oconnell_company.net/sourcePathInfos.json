@@ -1,0 +1,687 @@
+[
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748894,
+            "changeTime": 1516992748894,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748894,
+            "changeTime": 1516992748894,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default",
+            "isDirectory": true,
+            "size": 256,
+            "modifiedTime": 1516992748902,
+            "changeTime": 1516992748902,
+            "contentHash": "b217170f17c7ff5d55c135acfced01a7dc923b6a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1516994528371,
+            "changeTime": 1516994528371,
+            "contentHash": "57772ab5b666c5f8fc6156b380bb4fa9147243ce",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/AccountTriggerHelper.cls",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/AccountTriggerHelper.cls",
+            "isDirectory": false,
+            "size": 593,
+            "modifiedTime": 1516992748894,
+            "changeTime": 1516992748894,
+            "contentHash": "ce20b00ffb9e1ac69ac7e2cad63f631f5f1fa87f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/AccountTriggerHelper.cls-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/AccountTriggerHelper.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1516992748895,
+            "changeTime": 1516992748895,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTitleCompare.cls",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTitleCompare.cls",
+            "isDirectory": false,
+            "size": 1368,
+            "modifiedTime": 1516992748895,
+            "changeTime": 1516992748895,
+            "contentHash": "21d065c399e0d36b80ca42cad4c6f695f4c07d56",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTitleCompare.cls-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTitleCompare.cls-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1516992748895,
+            "changeTime": 1516992748895,
+            "contentHash": "cee560acbb33c56e90f6870ad20aff397123a82d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTriggerHelper.cls",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTriggerHelper.cls",
+            "isDirectory": false,
+            "size": 3032,
+            "modifiedTime": 1516992748895,
+            "changeTime": 1516992748895,
+            "contentHash": "e7bd6533dd4ce6c8429c4d3ce847df5471cbf24c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTriggerHelper.cls-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/ContactTriggerHelper.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1516992748895,
+            "changeTime": 1516992748895,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1516992748897,
+            "changeTime": 1516992748897,
+            "contentHash": "2f135992b98a71290b447d87530336c7289ac8dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9772,
+            "modifiedTime": 1516992748896,
+            "changeTime": 1516992748896,
+            "contentHash": "873aa5421d70eb9a9a6bf5de9ded43fafb7f90ca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9724,
+            "modifiedTime": 1516992748896,
+            "changeTime": 1516992748896,
+            "contentHash": "8abd329d11d477eb457f12e6a20609bceb350313",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9772,
+            "modifiedTime": 1516992748896,
+            "changeTime": 1516992748896,
+            "contentHash": "117ddf9b1cd711174f2f34fb05fa517a15c0adb2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9724,
+            "modifiedTime": 1516992748896,
+            "changeTime": 1516992748896,
+            "contentHash": "e62ada2fed912167cbfdb3ff3a9312e51cbd4811",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9866,
+            "modifiedTime": 1516992748896,
+            "changeTime": 1516992748896,
+            "contentHash": "3752370f2e51ebcc23369fd303602c608db17c10",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Sales%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9842,
+            "modifiedTime": 1516992748897,
+            "changeTime": 1516992748897,
+            "contentHash": "52dc6be6ec385796ec48a5935324c69ef395b370",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Support%29 Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9551,
+            "modifiedTime": 1516992748897,
+            "changeTime": 1516992748897,
+            "contentHash": "ccd72f181b380442c21fe9f1b8eb72b1061631e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/layouts/Contact-Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 9842,
+            "modifiedTime": 1516992748897,
+            "changeTime": 1516992748897,
+            "contentHash": "44ee4c9310d6b53240aac77c85e527d2769269ee",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1516992748899,
+            "changeTime": 1516992748899,
+            "contentHash": "28388795e6df2906c2af7cb5bb30006c1cc7ef85",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account/fields",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account/fields",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "d744b5ef5f049c808913f2589b5617162ba02709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account/fields/Highest_Contact_by_Title__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Account/fields/Highest_Contact_by_Title__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 540,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "b1f54744bc673d54542501c418dfe11e327d19fe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact/fields",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact/fields",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "c3fca563c58d701b448e03d5f090227e78c03482",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact/fields/Name__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/Contact/fields/Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 446,
+            "modifiedTime": 1516992748898,
+            "changeTime": 1516992748898,
+            "contentHash": "4dff847dd4720d801146edccb43fb1cedd7e48b7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1516992748899,
+            "changeTime": 1516992748899,
+            "contentHash": "41da7a29f1b7f7797677bd93ffb20f8aa93f8d4a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/New_Customer_Event__e.object-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/New_Customer_Event__e.object-meta.xml",
+            "isDirectory": false,
+            "size": 299,
+            "modifiedTime": 1516992748899,
+            "changeTime": 1516992748899,
+            "contentHash": "f6b31433b03abbba621324fea381c49f94f15ef8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1516992748900,
+            "changeTime": 1516992748900,
+            "contentHash": "aa8e319b213553ca56a3e3579e3be38d4e3da569",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/AdditionalData__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/AdditionalData__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 514,
+            "modifiedTime": 1516992748899,
+            "changeTime": 1516992748899,
+            "contentHash": "379fe258ba684d38ed9f1167a2c3c815b53f3a0c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/Name__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 452,
+            "modifiedTime": 1516992748899,
+            "changeTime": 1516992748899,
+            "contentHash": "2b7f35acee871b485bf1d29f1e0c1ce94143542b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/ObjectRecordId__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/ObjectRecordId__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 520,
+            "modifiedTime": 1516992748900,
+            "changeTime": 1516992748900,
+            "contentHash": "04bee2045d9fc8e10a881187f456282dd3eb126a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/Type__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/objects/New_Customer_Event__e/fields/Type__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 452,
+            "modifiedTime": 1516992748900,
+            "changeTime": 1516992748900,
+            "contentHash": "f76a48e18e9543625c9309e83761b0e5981a5737",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1516992748901,
+            "changeTime": 1516992748901,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 18741,
+            "modifiedTime": 1516992748900,
+            "changeTime": 1516992748900,
+            "contentHash": "a79acef75b896012b9a8ff07f24f1e1aa1eb99af",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5734,
+            "modifiedTime": 1516992748900,
+            "changeTime": 1516992748900,
+            "contentHash": "e884df083bb5ccc58aea3026f6f2a0c301d423a7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5726,
+            "modifiedTime": 1516992748901,
+            "changeTime": 1516992748901,
+            "contentHash": "209a43ca30e96aa89446a0dd93003f530af1d661",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 6068,
+            "modifiedTime": 1516992748901,
+            "changeTime": 1516992748901,
+            "contentHash": "85a8365d19426eed3d723d64ea08f27ef7031a26",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/remoteSiteSettings",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/remoteSiteSettings",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1516992748902,
+            "changeTime": 1516992748902,
+            "contentHash": "9d5e1d8e261b4e00e6fa5551b0e4fad5629aec35",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/remoteSiteSettings/CDG_Node_Events.remoteSite-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/remoteSiteSettings/CDG_Node_Events.remoteSite-meta.xml",
+            "isDirectory": false,
+            "size": 308,
+            "modifiedTime": 1516992748902,
+            "changeTime": 1516992748902,
+            "contentHash": "1a81988b7a046defc1d3a085223f1b159d2633de",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1516992748903,
+            "changeTime": 1516992748903,
+            "contentHash": "510772f8aaa803e903c4cdcf04784d624f35e4dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers/ContactTrigger.trigger",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers/ContactTrigger.trigger",
+            "isDirectory": false,
+            "size": 317,
+            "modifiedTime": 1516992748902,
+            "changeTime": 1516992748902,
+            "contentHash": "7d30c49f7686b5866bb9b96d02bed45bd2f8266c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers/ContactTrigger.trigger-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/triggers/ContactTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 178,
+            "modifiedTime": 1516992748903,
+            "changeTime": 1516992748903,
+            "contentHash": "f4fa2f66f8bb3776185595bdb1839ef7e913cd99",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1516992748905,
+            "changeTime": 1516992748905,
+            "contentHash": "cebde66fedaa95b751476e9de5848ad6a5f0d8b7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/triggerCalloutHelper.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/triggerCalloutHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1009,
+            "modifiedTime": 1516999937227,
+            "changeTime": 1516999937227,
+            "contentHash": "3117046cfe5313d17c3f949085d01caa7bdf955b"
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/triggerCalloutHelper.cls-meta.xml",
+        {
+            "sourcePath": "/Users/cdegour/Workspaces/cacheDemo/petesOrg/force-app/main/default/classes/triggerCalloutHelper.cls-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1516994528371,
+            "changeTime": 1516994528371,
+            "contentHash": "cf7a6b6cc0dd78c574a5088740ea755ba34349b4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]
