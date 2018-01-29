@@ -7,12 +7,12 @@ With events, developers can publish an event and walk away. If there are other s
 
 ## Build the project
 We used SFDX for development. We don't have instructions for anything else.
- 1. Clone this repo to your local computer `git clone https://github.com/pete-sfdc/CDGEventApp.git`
- 2. Setup your project SFDX there, set up default hub auth if not already and default org
- 3. Spin up a scratch org `sfdx force:org:create -f project-scratch-def.json`
- 4. SFDX MDDeploy the zip in /mdapi `sfdx force:mdapi:deploy`
- 5. SFDX source push to your org in org `sfdx force:source:push`
- 6. Create new connected app and achieve oauth nirvana
+1. Clone this repo to your local computer `git clone https://github.com/pete-sfdc/CDGEventApp.git`
+2. Setup your project SFDX there, set up default hub auth if not already and default org
+3. Spin up a scratch org `sfdx force:org:create -f project-scratch-def.json`
+4. SFDX MDDeploy the zip in /mdapi `sfdx force:mdapi:deploy`
+5. SFDX source push to your org in org `sfdx force:source:push`
+6. Create new connected app and achieve oauth nirvana
 
 The external service was built using NodeJS on top of Heroku.  [The source and build instructions for the NodeJS side can be found here.](https://github.com/cowie/platformEventsNodeDemo)
 
