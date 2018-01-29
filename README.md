@@ -13,11 +13,11 @@ We used SFDX for development. We don't have instructions for anything else.
  3. Spin up a scratch SFDX MDDeploy the zip in /mdapi
  4. SFDX source push to your org in org -create new connected app and achieve oauth nirvana
 
-The external service was built using NodeJS on top of Heroku.  [The source and build instructions can be found here.](https://github.com/cowie/platformEventsNodeDemo)
+The external service was built using NodeJS on top of Heroku.  [The source and build instructions for the NodeJS side can be found here.](https://github.com/cowie/platformEventsNodeDemo)
 
 ## Resources
-[SFDX Trailhead](https://trailhead.salesforce.com/en/trails/sfdx_get_started)
-[Heroku tutorial for NodeJS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
-[Event Driven Architecture on Wikipedia](https://en.wikipedia.org/wiki/Event-driven_architecture)
-[Salesforce Platform Events Documentation](https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_emp.htm)
-[Galactic Dust Driven Architecture](http://www.nyan.cat/)
+- [SFDX Trailhead](https://trailhead.salesforce.com/en/trails/sfdx_get_started)
+- [Heroku tutorial for NodeJS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+- [Event Driven Architecture on Wikipedia](https://en.wikipedia.org/wiki/Event-driven_architecture)
+- [Salesforce Platform Events Documentation](https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_emp.htm)
+- [Galactic Dust Driven Architecture](http://www.nyan.cat/)
