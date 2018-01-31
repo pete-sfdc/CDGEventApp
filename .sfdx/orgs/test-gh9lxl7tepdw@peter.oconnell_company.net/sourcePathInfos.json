@@ -32,28 +32,28 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 256,
             "modifiedTime": 1516992957196,
             "changeTime": 1516992957196,
-            "contentHash": "b217170f17c7ff5d55c135acfced01a7dc923b6a"
+            "contentHash": "b217170f17c7ff5d55c135acfced01a7dc923b6a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 384,
             "modifiedTime": 1516992957197,
             "changeTime": 1516992957197,
-            "isWorkspace": true,
-            "contentHash": "cebde66fedaa95b751476e9de5848ad6a5f0d8b7"
+            "contentHash": "cebde66fedaa95b751476e9de5848ad6a5f0d8b7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
         }
     ],
     [
@@ -306,14 +306,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes",
         {
+            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 256,
-            "modifiedTime": 1516992957191,
-            "changeTime": 1516991183424,
-            "contentHash": "3db79d4aacc9b071e45f078aa655db9e114c0b59",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 320,
+            "modifiedTime": 1517250320267,
+            "changeTime": 1517250320267,
+            "contentHash": "57772ab5b666c5f8fc6156b380bb4fa9147243ce"
         }
     ],
     [
@@ -514,14 +514,14 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1516993781376,
             "changeTime": 1516993781376,
-            "contentHash": "99a8b36e7d3811d9874d2ded0cf1b941efa2c964"
+            "contentHash": "99a8b36e7d3811d9874d2ded0cf1b941efa2c964",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -579,27 +579,53 @@
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers/AccountTrigger.trigger",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers/AccountTrigger.trigger",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 187,
             "modifiedTime": 1516993810923,
             "changeTime": 1516993810923,
-            "contentHash": "49f60ecda1dee6b4773bbfb7db87240105a5b028"
+            "contentHash": "49f60ecda1dee6b4773bbfb7db87240105a5b028",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers/AccountTrigger.trigger-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/triggers/AccountTrigger.trigger-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 178,
             "modifiedTime": 1516993815000,
             "changeTime": 1516993815565,
-            "contentHash": "f4fa2f66f8bb3776185595bdb1839ef7e913cd99"
+            "contentHash": "f4fa2f66f8bb3776185595bdb1839ef7e913cd99",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/triggerCalloutHelper.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/triggerCalloutHelper.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1009,
+            "modifiedTime": 1517250320267,
+            "changeTime": 1517250320267,
+            "contentHash": "3117046cfe5313d17c3f949085d01caa7bdf955b"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/triggerCalloutHelper.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/triggerCalloutHelper.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 198,
+            "modifiedTime": 1517250320267,
+            "changeTime": 1517250320267,
+            "contentHash": "cf7a6b6cc0dd78c574a5088740ea755ba34349b4"
         }
     ]
 ]

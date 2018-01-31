@@ -8,13 +8,14 @@ With events, developers can publish an event and walk away. If there are other s
 ## Build the project
 We used SFDX for development. We don't have instructions for anything else.
 1. Clone this repo to your local computer `git clone https://github.com/pete-sfdc/CDGEventApp.git`
-2. Setup your project SFDX there, set up default hub auth if not already and default org
-3. Spin up a scratch org `sfdx force:org:create -f project-scratch-def.json`
-4. SFDX MDDeploy the zip in /mdapi `sfdx force:mdapi:deploy`
-5. SFDX source push to your org in org `sfdx force:source:push`
-6. Create new connected app and achieve oauth nirvana
-
-The external service was built using NodeJS on top of Heroku.  [The source and build instructions for the NodeJS side can be found here.](https://github.com/cowie/platformEventsNodeDemo)
+2. Spin up a scratch org `sfdx force:org:create -f project-scratch-def.json`
+3. Deploy the zip in /mdapi `sfdx force:mdapi:deploy`
+4. Push the source to your new scratch org `sfdx force:source:push`
+5. Generate a password for the scratch org user `sfdx force:user:password:generate`
+6. Grab username and password of user on scratch org `sfdx force:user:display`
+7. Generate a security token for the default user (done through the Salesforce UI)
+8. Create a connected app in Salesforce. Enable OAuth, callback url `http://localhost:3000/oauth/_callback`, ClientID = Consumer Key
+9. Setup external service on Heroku. [The source and build instructions for the NodeJS side can be found here.](https://github.com/cowie/platformEventsNodeDemo)
 
 ## Resources
 - [SFDX Trailhead](https://trailhead.salesforce.com/en/trails/sfdx_get_started)
