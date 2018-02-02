@@ -3,21 +3,29 @@ public class ContactTriggerHelper {
     public static void afterInsert(Map<Id,Contact> newMap) {
         populateHighestContactByTitle(newMap.values());
         createFollowupActivities(newMap.values());
-        // publish insert event
-        EventsHelper.publishEvent((List<SObject>)newMap.values(), EventsHelper.DMLContext.INSERT_C);
+        if(EventsHelper.Settings.Use_Platform_Events__c) {
+            EventsHelper.publishEvent((List<SObject>)newMap.values(), EventsHelper.DMLContext.INSERT_C);
+        } else {
+            TriggerCalloutHelper.notifyRemoteSystem(newMap.keySet());
+        }
     }
 
     public static void afterUpdate(Map<Id,Contact> oldMap, Map<Id,Contact> newMap) {
         populateHighestContactByTitle(newMap.values());
-        // publish update event
-        EventsHelper.publishEvent((List<SObject>)newMap.values(), EventsHelper.DMLContext.UPDATE_C);
+        if(EventsHelper.Settings.Use_Platform_Events__c) {
+            EventsHelper.publishEvent((List<SObject>)newMap.values(), EventsHelper.DMLContext.UPDATE_C);
+        } else {
+            TriggerCalloutHelper.notifyRemoteSystem(newMap.keySet());
+        }
     }
 
+    // could easily be put in process builder
     public static void createFollowupActivities(List<Contact> cons) {
         createFollowupTasks(cons);
         createIntroCallEvents(cons);
     }
 
+    // could easily be put in process builder
     public static void createFollowupTasks(List<Contact> cons) {
         List<Task> tasks = new List<Task>();
         for(Contact con:cons) {
@@ -33,6 +41,7 @@ public class ContactTriggerHelper {
         }
     }
 
+    // could easily be put in process builder
     public static void createIntroCallEvents(List<Contact> cons) {
         List<Event> events = new List<Event>();
         for(Contact con:cons) {
@@ -67,11 +76,15 @@ public class ContactTriggerHelper {
         List<ContactTitleCompare> tempCons;
 
         // we need all of the contacts from every account to compare, so we do an inner join
-        for(Account acc:[
-            SELECT Id, Name, Highest_Contact_by_Title__c, 
-                (SELECT Id, Name, Title FROM Contacts WHERE Title != null ORDER BY LastName, FirstName)
-            FROM Account
-            WHERE Id IN:accIds
+        for(Account acc: [
+            SELECT  Id, Name, Highest_Contact_by_Title__c, (
+                SELECT  Id, Name, Title 
+                FROM    Contacts 
+                WHERE   Title != null 
+                ORDER BY LastName, FirstName
+            )
+            FROM    Account
+            WHERE   Id IN:accIds
         ]) {
             if(acc.Contacts != null && !acc.Contacts.isEmpty()) {
                 // we create a new list every execution

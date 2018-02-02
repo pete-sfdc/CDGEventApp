@@ -83,19 +83,6 @@
         }
     ],
     [
-        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/Name__c.field-meta.xml",
-        {
-            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/Name__c.field-meta.xml",
-            "isDirectory": false,
-            "size": 452,
-            "modifiedTime": 1516992957194,
-            "changeTime": 1516937335119,
-            "contentHash": "2b7f35acee871b485bf1d29f1e0c1ce94143542b",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/ObjectRecordId__c.field-meta.xml",
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/ObjectRecordId__c.field-meta.xml",
@@ -109,68 +96,55 @@
         }
     ],
     [
-        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/Type__c.field-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields/Type__c.field-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 509,
-            "modifiedTime": 1517590825873,
-            "changeTime": 1517590825873,
-            "contentHash": "2dfa7a610396026956f803fa29df0d647e03cbce"
-        }
-    ],
-    [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9824,
             "modifiedTime": 1517590825888,
             "changeTime": 1517590825888,
-            "contentHash": "71390297de213d09f0954fe066779ce8845b4ff6"
+            "contentHash": "71390297de213d09f0954fe066779ce8845b4ff6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9872,
             "modifiedTime": 1517590825898,
             "changeTime": 1517590825898,
-            "contentHash": "a5415a5fe42a66fa64f00f834d67ed9d7f52d9fd"
+            "contentHash": "a5415a5fe42a66fa64f00f834d67ed9d7f52d9fd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9824,
             "modifiedTime": 1517590825908,
             "changeTime": 1517590825908,
-            "contentHash": "df6d9198c9e82e2a7c36409f6d7e8493638c41ea"
+            "contentHash": "df6d9198c9e82e2a7c36409f6d7e8493638c41ea",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9872,
             "modifiedTime": 1517590825917,
             "changeTime": 1517590825917,
-            "contentHash": "73c4a8d7f779f8793060805fe75b39809a0cca4b"
+            "contentHash": "73c4a8d7f779f8793060805fe75b39809a0cca4b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -178,10 +152,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 5726,
-            "modifiedTime": 1516992957195,
-            "changeTime": 1516940873999,
-            "contentHash": "209a43ca30e96aa89446a0dd93003f530af1d661",
+            "size": 5593,
+            "modifiedTime": 1517604636243,
+            "changeTime": 1517604636243,
+            "contentHash": "10422042d0a73e49a4c10a999f63916766f2b3a6",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -191,10 +165,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 6068,
-            "modifiedTime": 1516992957196,
-            "changeTime": 1516940874002,
-            "contentHash": "85a8365d19426eed3d723d64ea08f27ef7031a26",
+            "size": 5935,
+            "modifiedTime": 1517604636249,
+            "changeTime": 1517604636249,
+            "contentHash": "e58dc4f49162f879668c3c857732938f45ad6ed7",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -204,10 +178,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 18741,
-            "modifiedTime": 1516992957195,
-            "changeTime": 1516940874016,
-            "contentHash": "a79acef75b896012b9a8ff07f24f1e1aa1eb99af",
+            "size": 18605,
+            "modifiedTime": 1517604636278,
+            "changeTime": 1517604636278,
+            "contentHash": "3b0ca39a35bc160a531f9f289d0be47f459a51b1",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -217,10 +191,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 5734,
-            "modifiedTime": 1516992957195,
-            "changeTime": 1516940874018,
-            "contentHash": "e884df083bb5ccc58aea3026f6f2a0c301d423a7",
+            "size": 5601,
+            "modifiedTime": 1517604636283,
+            "changeTime": 1517604636283,
+            "contentHash": "b1ec056b1db9c89a833c0a9639a3e715ec6e3b8e",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -256,10 +230,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects",
             "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1516992957193,
-            "changeTime": 1516940873940,
-            "contentHash": "28388795e6df2906c2af7cb5bb30006c1cc7ef85",
+            "size": 192,
+            "modifiedTime": 1517604636222,
+            "changeTime": 1517604636222,
+            "contentHash": "e2a0979ff02814a52db6b82dfcc5d2e7a597fb13",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -282,10 +256,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/New_Customer_Event__e/fields",
             "isDirectory": true,
-            "size": 224,
-            "modifiedTime": 1517589106814,
-            "changeTime": 1517589106814,
-            "contentHash": "384a002b96134ef9d326fdcb37d99b5bf1004e02",
+            "size": 160,
+            "modifiedTime": 1517601855474,
+            "changeTime": 1517601855474,
+            "contentHash": "b5a98b3d261967f32072cca52ea3202c151a7a97",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -308,10 +282,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes",
             "isDirectory": true,
-            "size": 384,
-            "modifiedTime": 1517579599733,
-            "changeTime": 1517579599733,
-            "contentHash": "75b1e29c2378666d0b030e1340ce6ecc89ae9945",
+            "size": 448,
+            "modifiedTime": 1517604636228,
+            "changeTime": 1517604636228,
+            "contentHash": "d4b6bd90d38157f1dba494f97309d6e6209a8ac1",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -334,10 +308,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/ContactTitleCompare.cls",
             "isDirectory": false,
-            "size": 1368,
-            "modifiedTime": 1516992957190,
-            "changeTime": 1516940688268,
-            "contentHash": "21d065c399e0d36b80ca42cad4c6f695f4c07d56",
+            "size": 1413,
+            "modifiedTime": 1517603015000,
+            "changeTime": 1517603015708,
+            "contentHash": "e2dcd9c95a593617d3803f47872d2e7e1491e45f",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -451,10 +425,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/ContactTriggerHelper.cls",
             "isDirectory": false,
-            "size": 3699,
-            "modifiedTime": 1517589007235,
-            "changeTime": 1517589007235,
-            "contentHash": "8e9ad870bc5f6e3b3816208265b567227f9838b6",
+            "size": 3871,
+            "modifiedTime": 1517606864310,
+            "changeTime": 1517606864310,
+            "contentHash": "09c1b30057b25989bb82a6fde21c07bde2a59a10",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -568,10 +542,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/AccountTriggerHelper.cls",
             "isDirectory": false,
-            "size": 727,
-            "modifiedTime": 1517588830000,
-            "changeTime": 1517588830128,
-            "contentHash": "a4a6bc9466163884508de976b008927fe0ead92b",
+            "size": 905,
+            "modifiedTime": 1517607363000,
+            "changeTime": 1517607363566,
+            "contentHash": "0ea6508549baa4945f5a052ebc91f7cd898a1b27",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -607,10 +581,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/triggerCalloutHelper.cls",
             "isDirectory": false,
-            "size": 1009,
-            "modifiedTime": 1517250320267,
-            "changeTime": 1517250320267,
-            "contentHash": "3117046cfe5313d17c3f949085d01caa7bdf955b",
+            "size": 1896,
+            "modifiedTime": 1517607505000,
+            "changeTime": 1517607505604,
+            "contentHash": "4446d88c75b5df73d1f15bc2d45296cb8fdc35aa",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -646,10 +620,10 @@
         {
             "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/classes/EventsHelper.cls",
             "isDirectory": false,
-            "size": 1407,
-            "modifiedTime": 1517590549000,
-            "changeTime": 1517590549927,
-            "contentHash": "46657326a74d53f224498be5707f846abf60282d",
+            "size": 1782,
+            "modifiedTime": 1517606897938,
+            "changeTime": 1517606897938,
+            "contentHash": "46f701ab5fdd7e8aeddef05c230cb442e6704551",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -691,6 +665,84 @@
             "contentHash": "1ea1bffb3636af1f96bedda59c72cc0983e62764",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/Platform_Events_Demo_Settings__c.object-meta.xml",
+        {
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/Platform_Events_Demo_Settings__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 364,
+            "modifiedTime": 1517604636223,
+            "changeTime": 1517604636223,
+            "contentHash": "72fb3b0a0954bf5c1f7a8a645b54e0a92bb18c3d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/Use_Platform_Events__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/Use_Platform_Events__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 414,
+            "modifiedTime": 1517604636224,
+            "changeTime": 1517604636224,
+            "contentHash": "b2e773744f615df480ba78e9ae2a69d8911cb36d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c",
+        {
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1517604636223,
+            "changeTime": 1517604636223,
+            "contentHash": "e4682148cf898054b94469024124450588a470ea",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1517607560360,
+            "changeTime": 1517607560360,
+            "contentHash": "4e4385aca6e6067044cf55253436ac320723dc34"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/ERP_System_Endpoint__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/ERP_System_Endpoint__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 409,
+            "modifiedTime": 1517607560360,
+            "changeTime": 1517607560360,
+            "contentHash": "a2acb40b6de3e8922df7816c692c1d47fd00eed6"
+        }
+    ],
+    [
+        "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/Financial_System_Endpoint__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/peter.oconnell/sfdx/EventApp/CDGEventApp/force-app/main/default/objects/Platform_Events_Demo_Settings__c/fields/Financial_System_Endpoint__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 404,
+            "modifiedTime": 1517607560360,
+            "changeTime": 1517607560360,
+            "contentHash": "afadd3db9de3e67599b71eb00c6beaf484c85643"
         }
     ]
 ]

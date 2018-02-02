@@ -12,17 +12,19 @@
         <apexClass>ContactTriggerHelper</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>EventSettings</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EventsHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>triggerCalloutHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Highest_Contact_by_Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>New_Customer_Event__e.AdditionalData__c</field>
@@ -30,17 +32,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>New_Customer_Event__e.Name__c</field>
+        <field>New_Customer_Event__e.Context__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>New_Customer_Event__e.ObjectRecordId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>New_Customer_Event__e.Type__c</field>
+        <field>New_Customer_Event__e.ObjectRecordID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>

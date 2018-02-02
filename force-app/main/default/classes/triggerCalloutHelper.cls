@@ -1,24 +1,58 @@
 global class triggerCalloutHelper {
-    
+
     @future(callout=true)
-    public static void notifyRemoteSystem(string recordId){
-        string body = '';
-        if(recordId.startsWith('001')){
-            Account a = [select id, name, createdDate from account where id = :recordId];
-            body = JSON.serialize(a);
-        }else if(recordId.startsWith('003')){
-            Contact c = [select id, name, createdDate, accountID from Contact where id = :recordId];
-            body = JSON.serialize(c);
+    public static void notifyRemoteSystem(Set<Id> recordIds) {
+       List<SObject> records = getRecords(recordIds);
+       sendToFinancialSystem(records);
+       sendToERPSystem(records);
+    }
+
+    private static List<SObject> getRecords(Set<Id> recordIds) {
+        List<SObject> objList;
+        Schema.SObjectType type;
+        for(Id recordId:recordIds) {
+            type = recordId.getSobjectType();
+            break;
         }
+        if(type == Account.SObjectType) {
+            objList = (List<SObject>)[
+                SELECT  Id, Name, CreatedDate 
+                FROM    Account 
+                WHERE   Id =:recordIds
+            ];
+        } else if(type == Contact.SObjectType) {
+            objList = (List<SObject>)[
+                SELECT  Id, Name, CreatedDate, AccountId
+                FROM    Contact 
+                WHERE   Id =:recordIds
+            ];
+        }
+        return objList;
+    }
+
+    private static void sendToFinancialSystem(List<SObject> records) {
+        for(SObject record:records) {
+            sendCallout(record, EventsHelper.Settings.Financial_System_Endpoint__c);
+        }
+    }
+
+    private static void sendToERPSystem(List<SObject> records) {
+        for(SObject record:records) {
+            sendCallout(record, EventsHelper.Settings.ERP_System_Endpoint__c);
+        }
+    }
+
+    private static HttpResponse sendCallout(SObject obj, String endpoint) {
         Http h = new Http();
         HttpRequest req = new HttpRequest();
-        //CHANGE THIS ENDPOINT URL TO YOUR HEROKU APP BROMONTANA
-        //AND YOU PROBABLY NEED A REMOTE SITE SETTING TOO, JUST SAYIN
-        req.setEndpoint('https://cdg-node-events.herokuapp.com/upsertRecord/' + recordId);
+        HttpResponse res;
+        String body = JSON.serialize(obj);
         req.setMethod('POST');
         req.setBody(body);
         req.setHeader('content-type', 'application/json');
-        system.debug(body);
-        httpResponse res = h.send(req);
+        String routeStr = '/upsertRecord/' + obj.get('Id');
+        req.setEndpoint(endpoint + routeStr);
+        res =  h.send(req);
+        return res;
     }
 }

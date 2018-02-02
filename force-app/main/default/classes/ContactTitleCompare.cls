@@ -1,3 +1,4 @@
+// an object to allow sorting by title level
 global class ContactTitleCompare implements Comparable {
 
     public static List<String> titleHierarchy = new List<String>{
