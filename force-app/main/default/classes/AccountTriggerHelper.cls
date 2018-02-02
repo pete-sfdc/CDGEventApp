@@ -1,6 +1,9 @@
 public class AccountTriggerHelper {
+
     public static void afterInsert(Map<Id,Account> newMap) {
         createFollowupTasks(newMap.values());
+        // publish insert event
+        EventsHelper.publishEvent((List<SObject>)newMap.values(), EventsHelper.DMLContext.INSERT_C);
     }
 
     public static void createFollowupTasks(List<Account> accs) {

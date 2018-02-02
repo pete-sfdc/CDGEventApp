@@ -1,9 +1,9 @@
-# Event Driven Architecture App
+# Platform Events v API Demo (Salesforce Side)
 This app was built to explore the idea of loosely coupled event architectures that were not possible in Salesforce until Platform Events was a thing.
 
 There are a lot of integration patterns in Salesforce that have tried to make up for the lack of a messaging queue on the platform: outbound messaging, callouts from apex, streaming api, polling from external services, and extremely well trained homing pigeons from Switzerland. However, each of these patterns lacks the simplicity and scalability of a message queue (esp. those dirty pigeons).
 
-With events, developers can publish an event and walk away. If there are other systems that need to act on this action, they can subscribe to it, and write whatever logic in whatever system they need to get their work done, all the while, the first developer doesn't have to change anything about how they wrote their app. This is particularly useful when a system starts to scale.
+With events, developers can publish an event and walk away. If there are other systems that need to act on this action, they can subscribe to it and write whatever logic in whatever system they need to get their work done. This type of pattern is particularly useful when an application and separate systems that need to connect to it start to scale.
 
 ## Build the project
 We used SFDX for development. We don't have instructions for anything else.
